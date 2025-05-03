@@ -1,81 +1,98 @@
 # Room Booking Management System
 
-## Mô tả dự án
+## 📝 Tổng quan
 
-Dự án **Room Booking Management System** là một hệ thống quản lý đặt phòng được xây dựng bằng **FastAPI** và **SQLAlchemy**. Hệ thống này cung cấp các API để quản lý người dùng, vai trò, phòng, địa điểm, và đặt phòng. Nó hỗ trợ các chức năng như đăng ký, đăng nhập, tìm kiếm phòng, tạo phòng mới, và quản lý thông tin đặt phòng.
+Dự án **Room Booking Management System** là một hệ thống quản lý đặt phòng được xây dựng bằng **FastAPI** và **SQLAlchemy**. Hệ thống cung cấp các API để quản lý người dùng, vai trò, phòng, địa điểm và đặt phòng. Nó hỗ trợ các chức năng như đăng ký, đăng nhập, tìm kiếm phòng, tạo phòng mới và quản lý thông tin đặt phòng.
 
-## Các tính năng chính
+## ✨ Tính năng chính
 
-- **Quản lý người dùng**:
-  - Đăng ký tài khoản
-  - Đăng nhập bằng email hoặc số điện thoại
-- **Quản lý phòng**:
-  - Tìm kiếm phòng theo địa điểm, giá, số lượng người, và thời gian
-  - Tạo phòng mới
-  - Xem chi tiết phòng
-- **Quản lý đặt phòng**:
-  - Đặt phòng
-  - Xem danh sách đặt phòng
-- **Quản lý vai trò**:
-  - Xem danh sách vai trò
+### 👤 Quản lý người dùng
+- Đăng ký tài khoản mới
+- Đăng nhập bằng email hoặc số điện thoại
+- Quản lý thông tin cá nhân
 
-## Công nghệ sử dụng
+### 🏨 Quản lý phòng
+- Tìm kiếm phòng theo địa điểm, giá, số lượng người và thời gian
+- Tạo và cập nhật thông tin phòng
+- Xem chi tiết phòng với hình ảnh
 
-- **Backend**: FastAPI
-- **ORM**: SQLAlchemy
-- **Database**: MySQL
-- **Authentication**: bcrypt
-- **Validation**: Pydantic
-- **Environment Management**: python-dotenv
+### 📅 Quản lý đặt phòng
+- Đặt phòng với các thông tin chi tiết
+- Xem lịch sử và danh sách đặt phòng
 
-## Cách chạy dự án
+### 👮 Quản lý vai trò (Role)
+- Phân quyền người dùng
+- Xem danh sách vai trò trong hệ thống
 
-### 1. Cài đặt môi trường
+## 🛠️ Công nghệ sử dụng
 
-- Tạo môi trường ảo:
+- **Backend**: [FastAPI](https://fastapi.tiangolo.com/) - Framework API hiệu suất cao
+- **ORM**: [SQLAlchemy](https://www.sqlalchemy.org/) - Thư viện SQL Toolkit
+- **Database**: MySQL - Hệ quản trị cơ sở dữ liệu quan hệ
+- **Authentication**: bcrypt - Thư viện mã hóa mật khẩu
+- **Validation**: [Pydantic](https://pydantic-docs.helpmanual.io/) - Thư viện xác thực dữ liệu
+- **Environment Management**: python-dotenv - Quản lý biến môi trường
 
+## 🚀 Hướng dẫn cài đặt
+
+### 1. Yêu cầu hệ thống
+- Python 3.8+
+- MySQL
+
+### 2. Cài đặt môi trường
+
+#### Sao chép mã nguồn
 ```bash
-  python -m venv venv
+git clone <repository-url>
+cd room-booking-system
 ```
 
-- Kích hoạt môi trường ảo:
-  - Windows:
-
+#### Tạo và kích hoạt môi trường ảo
 ```bash
-   .\venv\Scripts\activate
+# Tạo môi trường ảo
+python -m venv venv
+
+# Kích hoạt môi trường ảo (Windows)
+.\venv\Scripts\activate
+
+# Kích hoạt môi trường ảo (MacOS/Linux)
+source venv/bin/activate
 ```
 
-    - MacOS/Linux:
-
-```bash
-  source venv/bin/activate
-```
-
-- Cài các thư viện cần thiết
-
+#### Cài đặt các thư viện
 ```bash
 pip install -r requirements.txt
 ```
 
-### 2. Cấu hình cơ sở dữ liệu
+### 3. Cấu hình cơ sở dữ liệu
 
-- Tạo file `bash.env.development` trong thư mục gốc và thêm cấu hình:
+Tạo file `.env.development` trong thư mục gốc và thêm cấu hình:
 
-```bash
+```
 DATABASE_URL=mysql+pymysql://<username>:<password>@<host>:<port>/<database_name>
+SECRET_KEY=your_secret_key_here
 ```
 
-### 3. Chạy ứng dụng
-
-- Chạy ứng dụng:
-
+### 4. Khởi tạo cơ sở dữ liệu
 ```bash
-uvicorn main:app--reload
+# Chạy migration (nếu có)
+alembic upgrade head
 ```
 
-## Tài liệu API
+### 5. Chạy ứng dụng
+```bash
+uvicorn main:app --reload
+```
 
-### 1. **Authentication API**
+Ứng dụng sẽ chạy tại địa chỉ: `http://localhost:8000`
+
+## 📚 Tài liệu API
+
+Sau khi khởi động ứng dụng, bạn có thể truy cập tài liệu API tự động tại:
+- Swagger UI: `http://localhost:8000/docs`
+- ReDoc: `http://localhost:8000/redoc`
+
+### 1. Authentication API
 
 #### Đăng ký tài khoản
 
@@ -92,43 +109,40 @@ uvicorn main:app--reload
     "roleId": 1
   }
   ```
-- Response:
-  - Thành công:
-    ```bash
-    {
+- **Response**:
+  ```json
+  {
     "code": 0,
     "message": "User created successfully",
     "data": ""
-    }
-    ```
+  }
+  ```
 
 #### Đăng nhập
 
 - **Endpoint**: `/auth/login`
 - **Phương thức**: `POST`
 - **Request Body**:
-
-```bash
-{
-  "valueLogin": "example@example.com",
-  "password": "password123"
-}
-```
-
-- Response:
-
-```bash
- { "code": 0,
-  "message": "Login successful",
-  "data": {
-    "id": 1,
-    "email": "example@example.com",
-    "firstName": "John",
-    "lastName": "Doe",
-    "roleId": 1 ,
-          }
+  ```json
+  {
+    "valueLogin": "example@example.com",
+    "password": "password123"
   }
-```
+  ```
+- **Response**:
+  ```json
+  {
+    "code": 0,
+    "message": "Login successful",
+    "data": {
+      "id": 1,
+      "email": "example@example.com",
+      "firstName": "John",
+      "lastName": "Doe",
+      "roleId": 1
+    }
+  }
+  ```
 
 ### 2. Room API
 
@@ -137,18 +151,18 @@ uvicorn main:app--reload
 - **Endpoint**: `/room/search`
 - **Phương thức**: `GET`
 - **Query Parameters**:
-  `searchLocation`: Địa điểm tìm kiếm (bắt buộc).
-  `person_qty`: Số lượng người (mặc định: 1).
-  `check_in`: Ngày check-in (mặc định: ngày hiện tại).
-  `check_out`: Ngày check-out (mặc định: ngày hiện tại + 1).
-  `price_min`: Giá tối thiểu (tuỳ chọn).
-  `price_max`: Giá tối đa (tuỳ chọn).
-  `page`: Trang (mặc định: 1).
-  `items_per_page`: Số lượng phòng mỗi trang (mặc định: 5).
-  `sort_by`: Sắp xếp theo giá (price_asc hoặc price_desc).
-- **Response** :
-``` bash
-   {
+  - `searchLocation`: Địa điểm tìm kiếm (bắt buộc)
+  - `person_qty`: Số lượng người (mặc định: 1)
+  - `check_in`: Ngày check-in (mặc định: ngày hiện tại)
+  - `check_out`: Ngày check-out (mặc định: ngày hiện tại + 1)
+  - `price_min`: Giá tối thiểu (tuỳ chọn)
+  - `price_max`: Giá tối đa (tuỳ chọn)
+  - `page`: Trang (mặc định: 1)
+  - `items_per_page`: Số lượng phòng mỗi trang (mặc định: 5)
+  - `sort_by`: Sắp xếp theo giá (price_asc hoặc price_desc)
+- **Response**:
+  ```json
+  {
     "code": 0,
     "message": "Search rooms successfully with 10 results",
     "data": {
@@ -170,70 +184,74 @@ uvicorn main:app--reload
         }
       ]
     }
-  }:
-```
+  }
+  ```
 
 #### Xem chi tiết phòng
 
 - **Endpoint**: `/room/read-detail`
 - **Phương thức**: `GET`
 - **Query Parameters**: 
-  - `roomId` : ID của phòng (bắt buộc) 
-- **Response**
-``` bash
-{
-  "code": 0,
-  "message": "Room retrieved successfully",
-  "data": {
-    "room": {
-      "id": 1,
-      "name": "Deluxe Room",
-      "price": 100.0,
-      "maxPersonQty": 2,
-      "description": "A luxurious room",
-      "status": "available",
-      "imagePrimary": "https://example.com/image.jpg",
-      "images": ["https://example.com/image1.jpg", "https://example.com/image2.jpg"]
-    },
-    "location": {
-      "address": "123 Street",
-      "city": "Hanoi",
-      "country": "Vietnam"
+  - `roomId`: ID của phòng (bắt buộc) 
+- **Response**:
+  ```json
+  {
+    "code": 0,
+    "message": "Room retrieved successfully",
+    "data": {
+      "room": {
+        "id": 1,
+        "name": "Deluxe Room",
+        "price": 100.0,
+        "maxPersonQty": 2,
+        "description": "A luxurious room",
+        "status": "available",
+        "imagePrimary": "https://example.com/image.jpg",
+        "images": [
+          "https://example.com/image1.jpg", 
+          "https://example.com/image2.jpg"
+        ]
+      },
+      "location": {
+        "address": "123 Street",
+        "city": "Hanoi",
+        "country": "Vietnam"
+      }
     }
   }
-}
-```
+  ```
 
 #### Tạo phòng mới
 - **Endpoint**: `/room/create`
 - **Phương thức**: `POST`
 - **Request Body**:
-``` bash
-{
-  "name": "Deluxe Room",
-  "price": 100.0,
-  "maxPersonQty": 2,
-  "description": "A luxurious room",
-  "status": "available",
-  "address": "123 Street",
-  "district": "District 1",
-  "city": "Hanoi",
-  "country": "Vietnam",
-  "description_location": "Near the city center",
-  "imagesRoom": ["https://example.com/image1.jpg", "https://example.com/image2.jpg"]
-}
-```
+  ```json
+  {
+    "name": "Deluxe Room",
+    "price": 100.0,
+    "maxPersonQty": 2,
+    "description": "A luxurious room",
+    "status": "available",
+    "address": "123 Street",
+    "district": "District 1",
+    "city": "Hanoi",
+    "country": "Vietnam",
+    "description_location": "Near the city center",
+    "imagesRoom": [
+      "https://example.com/image1.jpg", 
+      "https://example.com/image2.jpg"
+    ]
+  }
+  ```
 
 - **Response**:
-```
-{
-  "code": 0,
-  "message": "Tạo phòng thành công",
-  "data": ""
-}
-```
-
-
+  ```json
+  {
+    "code": 0,
+    "message": "Tạo phòng thành công",
+    "data": ""
+  }
+  ```
 
 ### 3. Role API 
 
@@ -241,21 +259,29 @@ uvicorn main:app--reload
 - **Endpoint**: `/role/read`
 - **Phương thức**: `GET`
 - **Response**:
-``` bash
-{
-  "code": 0,
-  "message": "Roles retrieved successfully",
-  "data": [
-    {
-      "id": 1,
-      "name": "Admin",
-      "description": "Administrator role"
-    },
-    {
-      "id": 2,
-      "name": "User",
-      "description": "Regular user role"
-    }
-  ]
-}
-```
+  ```json
+  {
+    "code": 0,
+    "message": "Roles retrieved successfully",
+    "data": [
+      {
+        "id": 1,
+        "name": "Admin",
+        "description": "Administrator role"
+      },
+      {
+        "id": 2,
+        "name": "User",
+        "description": "Regular user role"
+      }
+    ]
+  }
+  ```
+
+## 🤝 Đóng góp
+
+Mọi đóng góp đều được hoan nghênh! Vui lòng tạo issue hoặc pull request để đóng góp vào dự án.
+
+## 📄 Giấy phép
+
+Dự án này được phát hành dưới giấy phép [MIT](LICENSE).
