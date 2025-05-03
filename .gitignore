@@ -1,4 +1,5 @@
 
 .env.development
-# venv/
+venv/
 
+.vercel
