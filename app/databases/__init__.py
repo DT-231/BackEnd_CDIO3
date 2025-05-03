@@ -6,20 +6,24 @@ from dotenv import load_dotenv
 
 pymysql.install_as_MySQLdb()
 
-load_dotenv(dotenv_path='.env.development')
+# load_dotenv(dotenv_path=".env.development")
 
-#  lấy database url từ biến môi trườngtrường
-Database_url = os.getenv("DATABASE_URL")
+# #  lấy database url từ biến môi trườngtrường
+# Database_url = os.getenv("DATABASE_URL")
 
-print("database tu env:", Database_url)
+# print("database tu env:", Database_url)
 # Kết nối đến MySQL
-engine = create_engine(Database_url, echo=True)
+engine = create_engine(
+    "mysql://root:TygbiwZktBFZqFJKRAxpGKThQMwIoFuI@maglev.proxy.rlwy.net:47561/railway",
+    echo=True,
+)
 
 # Tạo session factory
 SessionLocal = sessionmaker(autocommit=False, autoflush=False, bind=engine)
 
 # Base để tạo model
 Base = declarative_base()
+
 
 # Dependency để lấy database session
 def get_db():
