@@ -272,14 +272,6 @@
         "documentation": {}
     },
     {
-        "label": "relationship",
-        "importPath": "sqlalchemy.orm",
-        "description": "sqlalchemy.orm",
-        "isExtraImport": true,
-        "detail": "sqlalchemy.orm",
-        "documentation": {}
-    },
-    {
         "label": "Session",
         "importPath": "sqlalchemy.orm",
         "description": "sqlalchemy.orm",
@@ -433,14 +425,6 @@
     },
     {
         "label": "Role",
-        "importPath": "app.models",
-        "description": "app.models",
-        "isExtraImport": true,
-        "detail": "app.models",
-        "documentation": {}
-    },
-    {
-        "label": "BaseModel",
         "importPath": "app.models",
         "description": "app.models",
         "isExtraImport": true,
@@ -729,22 +713,6 @@
     },
     {
         "label": "UTC",
-        "importPath": "datetime",
-        "description": "datetime",
-        "isExtraImport": true,
-        "detail": "datetime",
-        "documentation": {}
-    },
-    {
-        "label": "UTC",
-        "importPath": "datetime",
-        "description": "datetime",
-        "isExtraImport": true,
-        "detail": "datetime",
-        "documentation": {}
-    },
-    {
-        "label": "datetime",
         "importPath": "datetime",
         "description": "datetime",
         "isExtraImport": true,
@@ -1256,54 +1224,6 @@
         "documentation": {}
     },
     {
-        "label": "Double",
-        "importPath": "sqlalchemy",
-        "description": "sqlalchemy",
-        "isExtraImport": true,
-        "detail": "sqlalchemy",
-        "documentation": {}
-    },
-    {
-        "label": "Integer",
-        "importPath": "sqlalchemy",
-        "description": "sqlalchemy",
-        "isExtraImport": true,
-        "detail": "sqlalchemy",
-        "documentation": {}
-    },
-    {
-        "label": "String",
-        "importPath": "sqlalchemy",
-        "description": "sqlalchemy",
-        "isExtraImport": true,
-        "detail": "sqlalchemy",
-        "documentation": {}
-    },
-    {
-        "label": "DATE",
-        "importPath": "sqlalchemy",
-        "description": "sqlalchemy",
-        "isExtraImport": true,
-        "detail": "sqlalchemy",
-        "documentation": {}
-    },
-    {
-        "label": "Column",
-        "importPath": "sqlalchemy",
-        "description": "sqlalchemy",
-        "isExtraImport": true,
-        "detail": "sqlalchemy",
-        "documentation": {}
-    },
-    {
-        "label": "DateTime",
-        "importPath": "sqlalchemy",
-        "description": "sqlalchemy",
-        "isExtraImport": true,
-        "detail": "sqlalchemy",
-        "documentation": {}
-    },
-    {
         "label": "ForeignKey",
         "importPath": "sqlalchemy",
         "description": "sqlalchemy",
@@ -1714,15 +1634,6 @@
         "description": "app.models.Rooms",
         "peekOfCode": "class Room(BaseModel):\n    __tablename__ = \"Rooms\"\n    name = Column(String(50), nullable=False, unique=True)\n    price = Column(Double, nullable=False)\n    maxPersonQty = Column(Integer, nullable=False)\n    description = Column(Text, nullable=False)\n    status = Column(String(15), default=RoomStatusEnums.AVAILABLE)\n    create_at = Column(DateTime, default=datetime.now(UTC))\n    update_at = Column(DateTime, default=datetime.now(UTC), onupdate=datetime.now(UTC))\n    # relationship",
         "detail": "app.models.Rooms",
-        "documentation": {}
-    },
-    {
-        "label": "TypeRoom",
-        "kind": 6,
-        "importPath": "app.models.TypeRooms",
-        "description": "app.models.TypeRooms",
-        "peekOfCode": "class TypeRoom(BaseModel):\n    __tablename__ = \"TypeRooms\"\n    name = Column(String(50), nullable=False)\n    maxOccupancy = Column(Integer, nullable=False)\n    description = Column(String(255), nullable=False)\n    room = relationship(\"Room\", back_populates=\"typeRoom\")\n    create_at = Column(DateTime, default=datetime.now(UTC))\n    update_at = Column(DateTime, default=datetime.now(UTC), onupdate=datetime.now(UTC))",
-        "detail": "app.models.TypeRooms",
         "documentation": {}
     },
     {
