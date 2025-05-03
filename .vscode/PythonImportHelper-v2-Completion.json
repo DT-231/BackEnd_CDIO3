@@ -1713,7 +1713,7 @@
         "kind": 6,
         "importPath": "app.schemas.RoleSchemas",
         "description": "app.schemas.RoleSchemas",
-        "peekOfCode": "class RoleSchemas:\n    class RoleBase(BaseModel):\n        name: str\n        description: str\n    class RoleCreate(RoleBase):\n        createAt: datetime = Field(default_factory=datetime.now(UTC))\n        updateAt: datetime = Field(default_factory=datetime.now(UTC))\n    class RoleResponse(RoleBase):\n        id: int\n        createAt: datetime = Field(default_factory=datetime.now(UTC))",
+        "peekOfCode": "class RoleSchemas:\n    class RoleBase(BaseModel):\n        name: str\n        description: str\n    class RoleCreate(RoleBase):\n        createAt: datetime = Field(default_factory=lambda: datetime.now(UTC))\n        updateAt: datetime = Field(default_factory=lambda: datetime.now(UTC))\n    class RoleResponse(RoleBase):\n        id: int\n        createAt: datetime = Field(default_factory=lambda: datetime.now(UTC))",
         "detail": "app.schemas.RoleSchemas",
         "documentation": {}
     },

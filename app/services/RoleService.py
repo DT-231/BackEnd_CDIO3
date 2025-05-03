@@ -31,7 +31,8 @@ def getAllRoles(db: Session):
                 "data": jsonable_encoder(rolesResponse),
             },
         )
-    except:
+    except Exception as e:
+        print(e)
         return JSONResponse(
             status_code=status.HTTP_500_INTERNAL_SERVER_ERROR,
             content={
