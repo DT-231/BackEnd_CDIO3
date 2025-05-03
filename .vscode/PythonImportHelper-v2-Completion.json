@@ -1,0 +1,1998 @@
+[
+    {
+        "label": "Depends",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "Request",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "Response",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "status",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "Depends",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "Request",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "status",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "Depends",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "Request",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "status",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "APIRouter",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "APIRouter",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "APIRouter",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "status",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "status",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "status",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "Body",
+        "importPath": "fastapi.params",
+        "description": "fastapi.params",
+        "isExtraImport": true,
+        "detail": "fastapi.params",
+        "documentation": {}
+    },
+    {
+        "label": "Body",
+        "importPath": "fastapi.params",
+        "description": "fastapi.params",
+        "isExtraImport": true,
+        "detail": "fastapi.params",
+        "documentation": {}
+    },
+    {
+        "label": "Query",
+        "importPath": "fastapi.params",
+        "description": "fastapi.params",
+        "isExtraImport": true,
+        "detail": "fastapi.params",
+        "documentation": {}
+    },
+    {
+        "label": "JSONResponse",
+        "importPath": "fastapi.responses",
+        "description": "fastapi.responses",
+        "isExtraImport": true,
+        "detail": "fastapi.responses",
+        "documentation": {}
+    },
+    {
+        "label": "JSONResponse",
+        "importPath": "fastapi.responses",
+        "description": "fastapi.responses",
+        "isExtraImport": true,
+        "detail": "fastapi.responses",
+        "documentation": {}
+    },
+    {
+        "label": "JSONResponse",
+        "importPath": "fastapi.responses",
+        "description": "fastapi.responses",
+        "isExtraImport": true,
+        "detail": "fastapi.responses",
+        "documentation": {}
+    },
+    {
+        "label": "JSONResponse",
+        "importPath": "fastapi.responses",
+        "description": "fastapi.responses",
+        "isExtraImport": true,
+        "detail": "fastapi.responses",
+        "documentation": {}
+    },
+    {
+        "label": "JSONResponse",
+        "importPath": "fastapi.responses",
+        "description": "fastapi.responses",
+        "isExtraImport": true,
+        "detail": "fastapi.responses",
+        "documentation": {}
+    },
+    {
+        "label": "JSONResponse",
+        "importPath": "fastapi.responses",
+        "description": "fastapi.responses",
+        "isExtraImport": true,
+        "detail": "fastapi.responses",
+        "documentation": {}
+    },
+    {
+        "label": "Session",
+        "importPath": "sqlalchemy.orm",
+        "description": "sqlalchemy.orm",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.orm",
+        "documentation": {}
+    },
+    {
+        "label": "Session",
+        "importPath": "sqlalchemy.orm",
+        "description": "sqlalchemy.orm",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.orm",
+        "documentation": {}
+    },
+    {
+        "label": "Session",
+        "importPath": "sqlalchemy.orm",
+        "description": "sqlalchemy.orm",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.orm",
+        "documentation": {}
+    },
+    {
+        "label": "relationship",
+        "importPath": "sqlalchemy.orm",
+        "description": "sqlalchemy.orm",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.orm",
+        "documentation": {}
+    },
+    {
+        "label": "relationship",
+        "importPath": "sqlalchemy.orm",
+        "description": "sqlalchemy.orm",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.orm",
+        "documentation": {}
+    },
+    {
+        "label": "relationship",
+        "importPath": "sqlalchemy.orm",
+        "description": "sqlalchemy.orm",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.orm",
+        "documentation": {}
+    },
+    {
+        "label": "relationship",
+        "importPath": "sqlalchemy.orm",
+        "description": "sqlalchemy.orm",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.orm",
+        "documentation": {}
+    },
+    {
+        "label": "relationship",
+        "importPath": "sqlalchemy.orm",
+        "description": "sqlalchemy.orm",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.orm",
+        "documentation": {}
+    },
+    {
+        "label": "relationship",
+        "importPath": "sqlalchemy.orm",
+        "description": "sqlalchemy.orm",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.orm",
+        "documentation": {}
+    },
+    {
+        "label": "relationship",
+        "importPath": "sqlalchemy.orm",
+        "description": "sqlalchemy.orm",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.orm",
+        "documentation": {}
+    },
+    {
+        "label": "Session",
+        "importPath": "sqlalchemy.orm",
+        "description": "sqlalchemy.orm",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.orm",
+        "documentation": {}
+    },
+    {
+        "label": "Session",
+        "importPath": "sqlalchemy.orm",
+        "description": "sqlalchemy.orm",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.orm",
+        "documentation": {}
+    },
+    {
+        "label": "Session",
+        "importPath": "sqlalchemy.orm",
+        "description": "sqlalchemy.orm",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.orm",
+        "documentation": {}
+    },
+    {
+        "label": "Session",
+        "importPath": "sqlalchemy.orm",
+        "description": "sqlalchemy.orm",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.orm",
+        "documentation": {}
+    },
+    {
+        "label": "Session",
+        "importPath": "sqlalchemy.orm",
+        "description": "sqlalchemy.orm",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.orm",
+        "documentation": {}
+    },
+    {
+        "label": "get_db",
+        "importPath": "app.databases",
+        "description": "app.databases",
+        "isExtraImport": true,
+        "detail": "app.databases",
+        "documentation": {}
+    },
+    {
+        "label": "get_db",
+        "importPath": "app.databases",
+        "description": "app.databases",
+        "isExtraImport": true,
+        "detail": "app.databases",
+        "documentation": {}
+    },
+    {
+        "label": "get_db",
+        "importPath": "app.databases",
+        "description": "app.databases",
+        "isExtraImport": true,
+        "detail": "app.databases",
+        "documentation": {}
+    },
+    {
+        "label": "Base",
+        "importPath": "app.databases",
+        "description": "app.databases",
+        "isExtraImport": true,
+        "detail": "app.databases",
+        "documentation": {}
+    },
+    {
+        "label": "UserSchemas",
+        "importPath": "app.schemas.UserSchemas",
+        "description": "app.schemas.UserSchemas",
+        "isExtraImport": true,
+        "detail": "app.schemas.UserSchemas",
+        "documentation": {}
+    },
+    {
+        "label": "UserSchemas",
+        "importPath": "app.schemas.UserSchemas",
+        "description": "app.schemas.UserSchemas",
+        "isExtraImport": true,
+        "detail": "app.schemas.UserSchemas",
+        "documentation": {}
+    },
+    {
+        "label": "createNewUser",
+        "importPath": "app.services.AuthService",
+        "description": "app.services.AuthService",
+        "isExtraImport": true,
+        "detail": "app.services.AuthService",
+        "documentation": {}
+    },
+    {
+        "label": "loginUser",
+        "importPath": "app.services.AuthService",
+        "description": "app.services.AuthService",
+        "isExtraImport": true,
+        "detail": "app.services.AuthService",
+        "documentation": {}
+    },
+    {
+        "label": "validateEmail",
+        "importPath": "app.services.AuthService",
+        "description": "app.services.AuthService",
+        "isExtraImport": true,
+        "detail": "app.services.AuthService",
+        "documentation": {}
+    },
+    {
+        "label": "validatePhoneNumber",
+        "importPath": "app.services.AuthService",
+        "description": "app.services.AuthService",
+        "isExtraImport": true,
+        "detail": "app.services.AuthService",
+        "documentation": {}
+    },
+    {
+        "label": "jsonable_encoder",
+        "importPath": "fastapi.encoders",
+        "description": "fastapi.encoders",
+        "isExtraImport": true,
+        "detail": "fastapi.encoders",
+        "documentation": {}
+    },
+    {
+        "label": "jsonable_encoder",
+        "importPath": "fastapi.encoders",
+        "description": "fastapi.encoders",
+        "isExtraImport": true,
+        "detail": "fastapi.encoders",
+        "documentation": {}
+    },
+    {
+        "label": "jsonable_encoder",
+        "importPath": "fastapi.encoders",
+        "description": "fastapi.encoders",
+        "isExtraImport": true,
+        "detail": "fastapi.encoders",
+        "documentation": {}
+    },
+    {
+        "label": "jsonable_encoder",
+        "importPath": "fastapi.encoders",
+        "description": "fastapi.encoders",
+        "isExtraImport": true,
+        "detail": "fastapi.encoders",
+        "documentation": {}
+    },
+    {
+        "label": "Role",
+        "importPath": "app.models",
+        "description": "app.models",
+        "isExtraImport": true,
+        "detail": "app.models",
+        "documentation": {}
+    },
+    {
+        "label": "BaseModel",
+        "importPath": "app.models",
+        "description": "app.models",
+        "isExtraImport": true,
+        "detail": "app.models",
+        "documentation": {}
+    },
+    {
+        "label": "BaseModel",
+        "importPath": "app.models",
+        "description": "app.models",
+        "isExtraImport": true,
+        "detail": "app.models",
+        "documentation": {}
+    },
+    {
+        "label": "BaseModel",
+        "importPath": "app.models",
+        "description": "app.models",
+        "isExtraImport": true,
+        "detail": "app.models",
+        "documentation": {}
+    },
+    {
+        "label": "BaseModel",
+        "importPath": "app.models",
+        "description": "app.models",
+        "isExtraImport": true,
+        "detail": "app.models",
+        "documentation": {}
+    },
+    {
+        "label": "BaseModel",
+        "importPath": "app.models",
+        "description": "app.models",
+        "isExtraImport": true,
+        "detail": "app.models",
+        "documentation": {}
+    },
+    {
+        "label": "BaseModel",
+        "importPath": "app.models",
+        "description": "app.models",
+        "isExtraImport": true,
+        "detail": "app.models",
+        "documentation": {}
+    },
+    {
+        "label": "BaseModel",
+        "importPath": "app.models",
+        "description": "app.models",
+        "isExtraImport": true,
+        "detail": "app.models",
+        "documentation": {}
+    },
+    {
+        "label": "User",
+        "importPath": "app.models",
+        "description": "app.models",
+        "isExtraImport": true,
+        "detail": "app.models",
+        "documentation": {}
+    },
+    {
+        "label": "RoomImage",
+        "importPath": "app.models",
+        "description": "app.models",
+        "isExtraImport": true,
+        "detail": "app.models",
+        "documentation": {}
+    },
+    {
+        "label": "Location",
+        "importPath": "app.models",
+        "description": "app.models",
+        "isExtraImport": true,
+        "detail": "app.models",
+        "documentation": {}
+    },
+    {
+        "label": "Role",
+        "importPath": "app.models",
+        "description": "app.models",
+        "isExtraImport": true,
+        "detail": "app.models",
+        "documentation": {}
+    },
+    {
+        "label": "Booking",
+        "importPath": "app.models",
+        "description": "app.models",
+        "isExtraImport": true,
+        "detail": "app.models",
+        "documentation": {}
+    },
+    {
+        "label": "Location",
+        "importPath": "app.models",
+        "description": "app.models",
+        "isExtraImport": true,
+        "detail": "app.models",
+        "documentation": {}
+    },
+    {
+        "label": "Room",
+        "importPath": "app.models",
+        "description": "app.models",
+        "isExtraImport": true,
+        "detail": "app.models",
+        "documentation": {}
+    },
+    {
+        "label": "RoomImage",
+        "importPath": "app.models",
+        "description": "app.models",
+        "isExtraImport": true,
+        "detail": "app.models",
+        "documentation": {}
+    },
+    {
+        "label": "RoleSchemas",
+        "importPath": "app.schemas",
+        "description": "app.schemas",
+        "isExtraImport": true,
+        "detail": "app.schemas",
+        "documentation": {}
+    },
+    {
+        "label": "LocationSchemas",
+        "importPath": "app.schemas",
+        "description": "app.schemas",
+        "isExtraImport": true,
+        "detail": "app.schemas",
+        "documentation": {}
+    },
+    {
+        "label": "RoomSchemas",
+        "importPath": "app.schemas",
+        "description": "app.schemas",
+        "isExtraImport": true,
+        "detail": "app.schemas",
+        "documentation": {}
+    },
+    {
+        "label": "RoleSchemas",
+        "importPath": "app.schemas",
+        "description": "app.schemas",
+        "isExtraImport": true,
+        "detail": "app.schemas",
+        "documentation": {}
+    },
+    {
+        "label": "RoomSchemas",
+        "importPath": "app.schemas",
+        "description": "app.schemas",
+        "isExtraImport": true,
+        "detail": "app.schemas",
+        "documentation": {}
+    },
+    {
+        "label": "UserSchemas",
+        "importPath": "app.schemas",
+        "description": "app.schemas",
+        "isExtraImport": true,
+        "detail": "app.schemas",
+        "documentation": {}
+    },
+    {
+        "label": "LocationSchemas",
+        "importPath": "app.schemas",
+        "description": "app.schemas",
+        "isExtraImport": true,
+        "detail": "app.schemas",
+        "documentation": {}
+    },
+    {
+        "label": "RoleSchemas",
+        "importPath": "app.schemas",
+        "description": "app.schemas",
+        "isExtraImport": true,
+        "detail": "app.schemas",
+        "documentation": {}
+    },
+    {
+        "label": "LocationSchemas",
+        "importPath": "app.schemas",
+        "description": "app.schemas",
+        "isExtraImport": true,
+        "detail": "app.schemas",
+        "documentation": {}
+    },
+    {
+        "label": "RoleSchemas",
+        "importPath": "app.schemas",
+        "description": "app.schemas",
+        "isExtraImport": true,
+        "detail": "app.schemas",
+        "documentation": {}
+    },
+    {
+        "label": "RoomSchemas",
+        "importPath": "app.schemas",
+        "description": "app.schemas",
+        "isExtraImport": true,
+        "detail": "app.schemas",
+        "documentation": {}
+    },
+    {
+        "label": "getAllRoles",
+        "importPath": "app.services.RoleService",
+        "description": "app.services.RoleService",
+        "isExtraImport": true,
+        "detail": "app.services.RoleService",
+        "documentation": {}
+    },
+    {
+        "label": "date",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "timedelta",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "UTC",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "UTC",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "UTC",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "UTC",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "UTC",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "UTC",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "UTC",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "UTC",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "UTC",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "date",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "List",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Optional",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Generic",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "TypeVar",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Optional",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Optional",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "List",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Optional",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "List",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "RoomStatusEnums",
+        "importPath": "app.enums",
+        "description": "app.enums",
+        "isExtraImport": true,
+        "detail": "app.enums",
+        "documentation": {}
+    },
+    {
+        "label": "BookingStatusEnums",
+        "importPath": "app.enums",
+        "description": "app.enums",
+        "isExtraImport": true,
+        "detail": "app.enums",
+        "documentation": {}
+    },
+    {
+        "label": "RoomStatusEnums",
+        "importPath": "app.enums",
+        "description": "app.enums",
+        "isExtraImport": true,
+        "detail": "app.enums",
+        "documentation": {}
+    },
+    {
+        "label": "addImages",
+        "importPath": "app.services.ImageService",
+        "description": "app.services.ImageService",
+        "isExtraImport": true,
+        "detail": "app.services.ImageService",
+        "documentation": {}
+    },
+    {
+        "label": "createNewLocation",
+        "importPath": "app.services.LocationService",
+        "description": "app.services.LocationService",
+        "isExtraImport": true,
+        "detail": "app.services.LocationService",
+        "documentation": {}
+    },
+    {
+        "label": "checkRoomExist",
+        "importPath": "app.services.RoomService",
+        "description": "app.services.RoomService",
+        "isExtraImport": true,
+        "detail": "app.services.RoomService",
+        "documentation": {}
+    },
+    {
+        "label": "createNewRoom",
+        "importPath": "app.services.RoomService",
+        "description": "app.services.RoomService",
+        "isExtraImport": true,
+        "detail": "app.services.RoomService",
+        "documentation": {}
+    },
+    {
+        "label": "getRoomById",
+        "importPath": "app.services.RoomService",
+        "description": "app.services.RoomService",
+        "isExtraImport": true,
+        "detail": "app.services.RoomService",
+        "documentation": {}
+    },
+    {
+        "label": "searchRoom",
+        "importPath": "app.services.RoomService",
+        "description": "app.services.RoomService",
+        "isExtraImport": true,
+        "detail": "app.services.RoomService",
+        "documentation": {}
+    },
+    {
+        "label": "Enum",
+        "importPath": "enum",
+        "description": "enum",
+        "isExtraImport": true,
+        "detail": "enum",
+        "documentation": {}
+    },
+    {
+        "label": "Enum",
+        "importPath": "enum",
+        "description": "enum",
+        "isExtraImport": true,
+        "detail": "enum",
+        "documentation": {}
+    },
+    {
+        "label": "Column",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "Integer",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "Column",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "Date",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "DateTime",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "ForeignKey",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "Integer",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "String",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "DATE",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "Column",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "DateTime",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "String",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "Column",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "DateTime",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "String",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "DATE",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "Boolean",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "Column",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "DateTime",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "ForeignKey",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "Integer",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "String",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "Column",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "DateTime",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "Double",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "ForeignKey",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "Integer",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "String",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "Text",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "DATE",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "Column",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "DateTime",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "Double",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "Integer",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "String",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "DATE",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "Column",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "DateTime",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "ForeignKey",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "Integer",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "String",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "and_",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "or_",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "and_",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "or_",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "select",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "and_",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "func",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "In",
+        "importPath": "ast",
+        "description": "ast",
+        "isExtraImport": true,
+        "detail": "ast",
+        "documentation": {}
+    },
+    {
+        "label": "dis",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "dis",
+        "description": "dis",
+        "detail": "dis",
+        "documentation": {}
+    },
+    {
+        "label": "handle_Login_User",
+        "importPath": "app.controllers.AuthController",
+        "description": "app.controllers.AuthController",
+        "isExtraImport": true,
+        "detail": "app.controllers.AuthController",
+        "documentation": {}
+    },
+    {
+        "label": "handle_Register_User",
+        "importPath": "app.controllers.AuthController",
+        "description": "app.controllers.AuthController",
+        "isExtraImport": true,
+        "detail": "app.controllers.AuthController",
+        "documentation": {}
+    },
+    {
+        "label": "SuccessResponse",
+        "importPath": "app.schemas.BaseResponseSchemas",
+        "description": "app.schemas.BaseResponseSchemas",
+        "isExtraImport": true,
+        "detail": "app.schemas.BaseResponseSchemas",
+        "documentation": {}
+    },
+    {
+        "label": "SuccessResponse",
+        "importPath": "app.schemas.BaseResponseSchemas",
+        "description": "app.schemas.BaseResponseSchemas",
+        "isExtraImport": true,
+        "detail": "app.schemas.BaseResponseSchemas",
+        "documentation": {}
+    },
+    {
+        "label": "SuccessResponse",
+        "importPath": "app.schemas.BaseResponseSchemas",
+        "description": "app.schemas.BaseResponseSchemas",
+        "isExtraImport": true,
+        "detail": "app.schemas.BaseResponseSchemas",
+        "documentation": {}
+    },
+    {
+        "label": "ErrorResponse",
+        "importPath": "app.schemas.BaseResponseSchemas",
+        "description": "app.schemas.BaseResponseSchemas",
+        "isExtraImport": true,
+        "detail": "app.schemas.BaseResponseSchemas",
+        "documentation": {}
+    },
+    {
+        "label": "error_response",
+        "importPath": "app.utils.errorResponseDoc",
+        "description": "app.utils.errorResponseDoc",
+        "isExtraImport": true,
+        "detail": "app.utils.errorResponseDoc",
+        "documentation": {}
+    },
+    {
+        "label": "error_response",
+        "importPath": "app.utils.errorResponseDoc",
+        "description": "app.utils.errorResponseDoc",
+        "isExtraImport": true,
+        "detail": "app.utils.errorResponseDoc",
+        "documentation": {}
+    },
+    {
+        "label": "error_response",
+        "importPath": "app.utils.errorResponseDoc",
+        "description": "app.utils.errorResponseDoc",
+        "isExtraImport": true,
+        "detail": "app.utils.errorResponseDoc",
+        "documentation": {}
+    },
+    {
+        "label": "HandleReadRoles",
+        "importPath": "app.controllers.RoleController",
+        "description": "app.controllers.RoleController",
+        "isExtraImport": true,
+        "detail": "app.controllers.RoleController",
+        "documentation": {}
+    },
+    {
+        "label": "HandleCreateRoom",
+        "importPath": "app.controllers.RoomController",
+        "description": "app.controllers.RoomController",
+        "isExtraImport": true,
+        "detail": "app.controllers.RoomController",
+        "documentation": {}
+    },
+    {
+        "label": "HandleSearchRooms",
+        "importPath": "app.controllers.RoomController",
+        "description": "app.controllers.RoomController",
+        "isExtraImport": true,
+        "detail": "app.controllers.RoomController",
+        "documentation": {}
+    },
+    {
+        "label": "HandleReadRoomDetail",
+        "importPath": "app.controllers.RoomController",
+        "description": "app.controllers.RoomController",
+        "isExtraImport": true,
+        "detail": "app.controllers.RoomController",
+        "documentation": {}
+    },
+    {
+        "label": "pydantic",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "detail": "pydantic",
+        "documentation": {}
+    },
+    {
+        "label": "BaseModel",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
+        "documentation": {}
+    },
+    {
+        "label": "BaseModel",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
+        "documentation": {}
+    },
+    {
+        "label": "BaseModel",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
+        "documentation": {}
+    },
+    {
+        "label": "Field",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
+        "documentation": {}
+    },
+    {
+        "label": "BaseModel",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
+        "documentation": {}
+    },
+    {
+        "label": "BaseModel",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
+        "documentation": {}
+    },
+    {
+        "label": "EmailStr",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
+        "documentation": {}
+    },
+    {
+        "label": "Field",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
+        "documentation": {}
+    },
+    {
+        "label": "field_validator",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
+        "documentation": {}
+    },
+    {
+        "label": "từ enum của mình",
+        "importPath": "app.enums import RoomStatusEnums  # Bạn có thể",
+        "description": "app.enums import RoomStatusEnums  # Bạn có thể",
+        "isExtraImport": true,
+        "detail": "app.enums import RoomStatusEnums  # Bạn có thể",
+        "documentation": {}
+    },
+    {
+        "label": "re",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "re",
+        "description": "re",
+        "detail": "re",
+        "documentation": {}
+    },
+    {
+        "label": "bcrypt",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "bcrypt",
+        "description": "bcrypt",
+        "detail": "bcrypt",
+        "documentation": {}
+    },
+    {
+        "label": "is_valid_number",
+        "importPath": "phonenumbers",
+        "description": "phonenumbers",
+        "isExtraImport": true,
+        "detail": "phonenumbers",
+        "documentation": {}
+    },
+    {
+        "label": "parse",
+        "importPath": "phonenumbers",
+        "description": "phonenumbers",
+        "isExtraImport": true,
+        "detail": "phonenumbers",
+        "documentation": {}
+    },
+    {
+        "label": "app",
+        "importPath": "app",
+        "description": "app",
+        "isExtraImport": true,
+        "detail": "app",
+        "documentation": {}
+    },
+    {
+        "label": "uvicorn",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "uvicorn",
+        "description": "uvicorn",
+        "detail": "uvicorn",
+        "documentation": {}
+    },
+    {
+        "label": "BookingStatusEnums",
+        "kind": 6,
+        "importPath": "app.enums.BookingStatusEnums",
+        "description": "app.enums.BookingStatusEnums",
+        "peekOfCode": "class BookingStatusEnums(str, Enum):\n    PENDING = \"pending\"  # this status of booking  is pending when the user has not yet confirmed the booking\n    CONFIRMED = \"confirmed\"  # this status of booking is confirmed when the user has payment the booking\n    CANCELLED = \"cancelled\"  # this status of booking is cancelled when the user has cancelled the booking\n    COMPLETED = \"completed\"  # this status of booking is completed when the user has check out the booking",
+        "detail": "app.enums.BookingStatusEnums",
+        "documentation": {}
+    },
+    {
+        "label": "RoomStatusEnums",
+        "kind": 6,
+        "importPath": "app.enums.RoomStatusEnums",
+        "description": "app.enums.RoomStatusEnums",
+        "peekOfCode": "class RoomStatusEnums(str, Enum):\n    AVAILABLE = \"available\"  # this room is available for booking\n    BOOKED = \"Booked\"  # this room is currently booked\n    DIRTY = \"Dirty \"  # this room needs cleaning\n    CLEAR = \"Clean\"  # this room is clean and ready for booking",
+        "detail": "app.enums.RoomStatusEnums",
+        "documentation": {}
+    },
+    {
+        "label": "BaseModel",
+        "kind": 6,
+        "importPath": "app.models.BaseModel",
+        "description": "app.models.BaseModel",
+        "peekOfCode": "class BaseModel(Base):\n    __abstract__ = True  # Đánh dấu đây là lớp trừu tượng, không tạo bảng riêng\n    __allow_unmapped__ = True\n    id = Column(Integer, primary_key=True, autoincrement=True, unique=True)",
+        "detail": "app.models.BaseModel",
+        "documentation": {}
+    },
+    {
+        "label": "Booking",
+        "kind": 6,
+        "importPath": "app.models.Bookings",
+        "description": "app.models.Bookings",
+        "peekOfCode": "class Booking(BaseModel):\n    __tablename__ = \"bookings\"\n    # User ID of the user who made the booking\n    userId = Column(Integer, ForeignKey(\"Users.id\"), nullable=False)\n    #  one to many relationship with the User model\n    user = relationship(\"User\", back_populates=\"booking\")\n    # Room ID of the room being booked\n    roomId = Column(Integer, ForeignKey(\"Rooms.id\"), nullable=False)\n    # one to many relationship with the Room model\n    room = relationship(\"Room\", back_populates=\"booking\")",
+        "detail": "app.models.Bookings",
+        "documentation": {}
+    },
+    {
+        "label": "Location",
+        "kind": 6,
+        "importPath": "app.models.Location",
+        "description": "app.models.Location",
+        "peekOfCode": "class Location(BaseModel):\n    __tablename__ = \"Locations\"\n    address = Column(String(100))  # Location room /địa chỉ phòng\n    district = Column(String(50))  # district / quận huyện\n    city = Column(String(50))  # city / thành phố\n    country = Column(String(50))  # country / quốc gia\n    description = Column(String(255))  # description of Location / mô tả địa điểm\n    # one to many relationship with room\n    rooms = relationship(\n        \"Room\", back_populates=\"location\"",
+        "detail": "app.models.Location",
+        "documentation": {}
+    },
+    {
+        "label": "Role",
+        "kind": 6,
+        "importPath": "app.models.Roles",
+        "description": "app.models.Roles",
+        "peekOfCode": "class Role(BaseModel):\n    __tablename__ = \"Roles\"\n    name = Column(String(20), nullable=False, unique=True)\n    description = Column(String(50), nullable=False)\n    # many to one relationship with user\n    user = relationship(\"User\", back_populates=\"role\")\n    create_at = Column(DateTime, default=datetime.now(UTC))\n    update_at = Column(DateTime, default=datetime.now(UTC), onupdate=datetime.now(UTC))\n    def __repr__(self):\n        return f\"<Role(id={self.id}, name={self.name}, description={self.description})>\"",
+        "detail": "app.models.Roles",
+        "documentation": {}
+    },
+    {
+        "label": "RoomImage",
+        "kind": 6,
+        "importPath": "app.models.RoomImages",
+        "description": "app.models.RoomImages",
+        "peekOfCode": "class RoomImage(BaseModel):\n    __tablename__ = \"RoomImages\"\n    roomId = Column(Integer, ForeignKey(\"Rooms.id\"))\n    room = relationship(\"Room\", back_populates=\"images\")\n    url = Column(String(255), nullable=False)\n    isPrimary = Column(Boolean, default=False)\n    create_at = Column(DateTime, default=datetime.now(UTC))\n    update_at = Column(DateTime, default=datetime.now(UTC), onupdate=datetime.now(UTC))",
+        "detail": "app.models.RoomImages",
+        "documentation": {}
+    },
+    {
+        "label": "Room",
+        "kind": 6,
+        "importPath": "app.models.Rooms",
+        "description": "app.models.Rooms",
+        "peekOfCode": "class Room(BaseModel):\n    __tablename__ = \"Rooms\"\n    name = Column(String(50), nullable=False, unique=True)\n    price = Column(Double, nullable=False)\n    maxPersonQty = Column(Integer, nullable=False)\n    description = Column(Text, nullable=False)\n    status = Column(String(15), default=RoomStatusEnums.AVAILABLE)\n    create_at = Column(DateTime, default=datetime.now(UTC))\n    update_at = Column(DateTime, default=datetime.now(UTC), onupdate=datetime.now(UTC))\n    # relationship",
+        "detail": "app.models.Rooms",
+        "documentation": {}
+    },
+    {
+        "label": "TypeRoom",
+        "kind": 6,
+        "importPath": "app.models.TypeRooms",
+        "description": "app.models.TypeRooms",
+        "peekOfCode": "class TypeRoom(BaseModel):\n    __tablename__ = \"TypeRooms\"\n    name = Column(String(50), nullable=False)\n    maxOccupancy = Column(Integer, nullable=False)\n    description = Column(String(255), nullable=False)\n    room = relationship(\"Room\", back_populates=\"typeRoom\")\n    create_at = Column(DateTime, default=datetime.now(UTC))\n    update_at = Column(DateTime, default=datetime.now(UTC), onupdate=datetime.now(UTC))",
+        "detail": "app.models.TypeRooms",
+        "documentation": {}
+    },
+    {
+        "label": "User",
+        "kind": 6,
+        "importPath": "app.models.Users",
+        "description": "app.models.Users",
+        "peekOfCode": "class User(BaseModel):\n    __tablename__ = \"Users\"\n    email = Column(String(50), nullable=True, unique=True)\n    phoneNumber = Column(String(12), nullable=True, unique=True)\n    password = Column(String(255), nullable=False)\n    firstName = Column(String(50), nullable=False)\n    lastName = Column(String(50), nullable=False)\n    roleId = Column(Integer, ForeignKey(\"Roles.id\"))\n    role = relationship(\"Role\", back_populates=\"user\")\n    booking = relationship(\"Booking\", back_populates=\"user\")",
+        "detail": "app.models.Users",
+        "documentation": {}
+    },
+    {
+        "label": "AuthRouter",
+        "kind": 5,
+        "importPath": "app.routers.AuthRouter",
+        "description": "app.routers.AuthRouter",
+        "peekOfCode": "AuthRouter = APIRouter(prefix=\"/auth\", tags=[\"auth\"])\nAuthRouter.add_api_route(\n    \"/register\",\n    endpoint=handle_Register_User,\n    methods=[\"POST\"],\n    response_model=SuccessResponse,\n    tags=[\"auth\"],\n    responses=error_response(status=[400, 422, 500]),\n)\nAuthRouter.add_api_route(",
+        "detail": "app.routers.AuthRouter",
+        "documentation": {}
+    },
+    {
+        "label": "RoleRouter",
+        "kind": 5,
+        "importPath": "app.routers.RoleRouter",
+        "description": "app.routers.RoleRouter",
+        "peekOfCode": "RoleRouter = APIRouter(prefix=\"/role\", tags=[\"role\"])\nRoleRouter.add_api_route(\n    \"/read\",\n    endpoint=HandleReadRoles,\n    methods=[\"GET\"],\n    response_model=SuccessResponse[RoleSchemas.RoleResponse],\n    tags=[\"role\"],\n    responses=error_response(status=[400, 422, 500]),\n    response_description=\"Get all roles\",\n)",
+        "detail": "app.routers.RoleRouter",
+        "documentation": {}
+    },
+    {
+        "label": "RoomRouter",
+        "kind": 5,
+        "importPath": "app.routers.RoomRouter",
+        "description": "app.routers.RoomRouter",
+        "peekOfCode": "RoomRouter = APIRouter(prefix=\"/room\", tags=[\"room\"])\nRoomRouter.add_api_route(\n    \"/search\",\n    endpoint=HandleSearchRooms,\n    methods=[\"GET\"],\n    response_model=SuccessResponse[RoomSchemas.RoomResponse],\n    tags=[\"room\"],\n    responses=error_response(status=[400, 422, 500]),\n)\nRoomRouter.add_api_route(",
+        "detail": "app.routers.RoomRouter",
+        "documentation": {}
+    },
+    {
+        "label": "SuccessResponse",
+        "kind": 6,
+        "importPath": "app.schemas.BaseResponseSchemas",
+        "description": "app.schemas.BaseResponseSchemas",
+        "peekOfCode": "class SuccessResponse(BaseModel, Generic[T]):\n    code: int\n    message: str\n    data: T\nclass ErrorResponse(BaseModel):\n    code: int\n    message: str\n    data: str",
+        "detail": "app.schemas.BaseResponseSchemas",
+        "documentation": {}
+    },
+    {
+        "label": "ErrorResponse",
+        "kind": 6,
+        "importPath": "app.schemas.BaseResponseSchemas",
+        "description": "app.schemas.BaseResponseSchemas",
+        "peekOfCode": "class ErrorResponse(BaseModel):\n    code: int\n    message: str\n    data: str",
+        "detail": "app.schemas.BaseResponseSchemas",
+        "documentation": {}
+    },
+    {
+        "label": "T",
+        "kind": 5,
+        "importPath": "app.schemas.BaseResponseSchemas",
+        "description": "app.schemas.BaseResponseSchemas",
+        "peekOfCode": "T = TypeVar(\"T\")\nclass SuccessResponse(BaseModel, Generic[T]):\n    code: int\n    message: str\n    data: T\nclass ErrorResponse(BaseModel):\n    code: int\n    message: str\n    data: str",
+        "detail": "app.schemas.BaseResponseSchemas",
+        "documentation": {}
+    },
+    {
+        "label": "LocationSchemas",
+        "kind": 6,
+        "importPath": "app.schemas.LocationSchemas",
+        "description": "app.schemas.LocationSchemas",
+        "peekOfCode": "class LocationSchemas:\n    # class locationBase(BaseModel):\n    class locationCreate(BaseModel):\n        address: str\n        district: Optional[str] = None\n        city: str\n        country: str\n        description: Optional[str] = None\n    class locationUpadte(BaseModel):\n        address: Optional[str] = None",
+        "detail": "app.schemas.LocationSchemas",
+        "documentation": {}
+    },
+    {
+        "label": "RoleSchemas",
+        "kind": 6,
+        "importPath": "app.schemas.RoleSchemas",
+        "description": "app.schemas.RoleSchemas",
+        "peekOfCode": "class RoleSchemas:\n    class RoleBase(BaseModel):\n        name: str\n        description: str\n    class RoleCreate(RoleBase):\n        createAt: datetime = Field(default_factory=datetime.now(UTC))\n        updateAt: datetime = Field(default_factory=datetime.now(UTC))\n    class RoleResponse(RoleBase):\n        id: int\n        createAt: datetime = Field(default_factory=datetime.now(UTC))",
+        "detail": "app.schemas.RoleSchemas",
+        "documentation": {}
+    },
+    {
+        "label": "RoomSchemas",
+        "kind": 6,
+        "importPath": "app.schemas.RoomSchemas",
+        "description": "app.schemas.RoomSchemas",
+        "peekOfCode": "class RoomSchemas:\n    class RoomBase(BaseModel):\n        name: str\n        price: float\n        maxPersonQty: int\n        description: str\n        status: Optional[str] = (\n            RoomStatusEnums.AVAILABLE\n        )  # Sử dụng enum cho trạng thái phòng\n        # locationId: int",
+        "detail": "app.schemas.RoomSchemas",
+        "documentation": {}
+    },
+    {
+        "label": "UserSchemas",
+        "kind": 6,
+        "importPath": "app.schemas.UserSchemas",
+        "description": "app.schemas.UserSchemas",
+        "peekOfCode": "class UserSchemas:\n    \"\"\"\n    This class contains Pydantic schemas for user-related operations.\n    \"\"\"\n    class UserBase(BaseModel):\n        email: Optional[EmailStr] = None\n        phoneNumber: Optional[str] = None\n        firstName: Optional[str] = None\n        lastName: Optional[str] = None\n        password: str = Field(..., min_length=8)",
+        "detail": "app.schemas.UserSchemas",
+        "documentation": {}
+    },
+    {
+        "label": "validateEmail",
+        "kind": 2,
+        "importPath": "app.services.AuthService",
+        "description": "app.services.AuthService",
+        "peekOfCode": "def validateEmail(value) -> bool:\n    try:\n        valid = re.match(r\"^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\\.[a-zA-Z]{2,}$\", value)\n    except:\n        valid = None\n    return valid\ndef validatePhoneNumber(value) -> str:\n    valid = None\n    try:\n        if value.startswith(\"0\"):",
+        "detail": "app.services.AuthService",
+        "documentation": {}
+    },
+    {
+        "label": "validatePhoneNumber",
+        "kind": 2,
+        "importPath": "app.services.AuthService",
+        "description": "app.services.AuthService",
+        "peekOfCode": "def validatePhoneNumber(value) -> str:\n    valid = None\n    try:\n        if value.startswith(\"0\"):\n            value = \"+84\" + value[1:]\n        valid = is_valid_number(parse(value))\n    except Exception as e:\n        print(e)\n    return valid\ndef hash_password(password: str) -> str:",
+        "detail": "app.services.AuthService",
+        "documentation": {}
+    },
+    {
+        "label": "hash_password",
+        "kind": 2,
+        "importPath": "app.services.AuthService",
+        "description": "app.services.AuthService",
+        "peekOfCode": "def hash_password(password: str) -> str:\n    # converting password to array of bytes\n    bytes = password.encode(\"utf-8\")\n    # generating the salt\n    salt = bcrypt.gensalt()\n    # Hashing the password\n    hash = bcrypt.hashpw(bytes, salt)\n    return hash.decode(\"utf-8\")\ndef check_password(password_input: str, hashed_password: str) -> bool:\n    # Convert the input password to bytes",
+        "detail": "app.services.AuthService",
+        "documentation": {}
+    },
+    {
+        "label": "check_password",
+        "kind": 2,
+        "importPath": "app.services.AuthService",
+        "description": "app.services.AuthService",
+        "peekOfCode": "def check_password(password_input: str, hashed_password: str) -> bool:\n    # Convert the input password to bytes\n    try:\n        # Convert the input password to bytes\n        password_bytes = password_input.encode(\"utf-8\")\n        # Compare the input password with the hashed password\n        result = bcrypt.checkpw(password_bytes, hashed_password.encode(\"utf-8\"))\n        print(f\"Password check result: {result}\")\n        return result\n    except Exception as e:",
+        "detail": "app.services.AuthService",
+        "documentation": {}
+    },
+    {
+        "label": "check_phone_number_exists",
+        "kind": 2,
+        "importPath": "app.services.AuthService",
+        "description": "app.services.AuthService",
+        "peekOfCode": "def check_phone_number_exists(db: Session, phoneNumber: str) -> bool:\n    if not phoneNumber:\n        return True\n    try:\n        checkPhoneNumber = (\n            db.query(User).filter(User.phoneNumber == phoneNumber).first()\n        )\n        if checkPhoneNumber is None:\n            return True\n        return False",
+        "detail": "app.services.AuthService",
+        "documentation": {}
+    },
+    {
+        "label": "check_email_exists",
+        "kind": 2,
+        "importPath": "app.services.AuthService",
+        "description": "app.services.AuthService",
+        "peekOfCode": "def check_email_exists(db: Session, email: str) -> bool:\n    if not email:\n        return True\n    try:\n        checkUser = db.query(User).filter(User.email == email).first()\n        if checkUser is None:\n            return True\n        return False\n    except Exception as e:\n        print(f\"Error checking email: {str(e)}\")",
+        "detail": "app.services.AuthService",
+        "documentation": {}
+    },
+    {
+        "label": "createNewUser",
+        "kind": 2,
+        "importPath": "app.services.AuthService",
+        "description": "app.services.AuthService",
+        "peekOfCode": "def createNewUser(\n    db: Session, user: UserSchemas.UserCreate\n) -> UserSchemas.UserResponse:\n    try:\n        # Check if the username already exists\n        checkUser = check_email_exists(db, user.email)\n        if checkUser is False:\n            return JSONResponse(\n                status_code=status.HTTP_200_OK,\n                content={",
+        "detail": "app.services.AuthService",
+        "documentation": {}
+    },
+    {
+        "label": "loginUser",
+        "kind": 2,
+        "importPath": "app.services.AuthService",
+        "description": "app.services.AuthService",
+        "peekOfCode": "def loginUser(db: Session, user: UserSchemas.UserBase) -> UserSchemas.UserResponse:\n    try:\n        # Check if the username already exists\n        checkUser = (\n            db.query(User)\n            .filter(\n                or_(\n                    and_(User.email == user.email, user.email is not None),\n                    and_(\n                        User.phoneNumber == user.phoneNumber,",
+        "detail": "app.services.AuthService",
+        "documentation": {}
+    },
+    {
+        "label": "addImages",
+        "kind": 2,
+        "importPath": "app.services.ImageService",
+        "description": "app.services.ImageService",
+        "peekOfCode": "def addImages(listImages: List[str], room_id: int, db: Session):\n    try:\n        images = []\n        for i, image in enumerate(listImages):\n            images.append({\n                'url': image,\n                'isPrimary': True if i == 0 else False,\n                'roomId': room_id\n            })\n        db.bulk_insert_mappings(RoomImage, images)",
+        "detail": "app.services.ImageService",
+        "documentation": {}
+    },
+    {
+        "label": "getLocation",
+        "kind": 2,
+        "importPath": "app.services.LocationService",
+        "description": "app.services.LocationService",
+        "peekOfCode": "def getLocation(location: LocationSchemas.locationCreate, db: Session):\n    try:\n        resultRaw = (\n            db.query(Location)\n            .filter(\n                and_(\n                    Location.address == location.address,\n                    Location.city == location.city,\n                    Location.country == location.country,\n                    Location.district == location.district,",
+        "detail": "app.services.LocationService",
+        "documentation": {}
+    },
+    {
+        "label": "createNewLocation",
+        "kind": 2,
+        "importPath": "app.services.LocationService",
+        "description": "app.services.LocationService",
+        "peekOfCode": "def createNewLocation(location: LocationSchemas.locationCreate, db: Session):\n    try:\n        check = getLocation(location, db)\n        if check:\n            return check\n        newLocation = Location(\n            address=location.address,\n            district=location.district,\n            city=location.city,\n            country=location.country,",
+        "detail": "app.services.LocationService",
+        "documentation": {}
+    },
+    {
+        "label": "getAllRoles",
+        "kind": 2,
+        "importPath": "app.services.RoleService",
+        "description": "app.services.RoleService",
+        "peekOfCode": "def getAllRoles(db: Session):\n    try:\n        role_raw = db.query(Role).all()\n        if not role_raw:\n            return JSONResponse(\n                status_code=status.HTTP_404_NOT_FOUND,\n                content={\n                    \"code\": 1,\n                    \"message\": \"No roles found\",\n                    \"data\": \"\",",
+        "detail": "app.services.RoleService",
+        "documentation": {}
+    },
+    {
+        "label": "getAllRooms",
+        "kind": 2,
+        "importPath": "app.services.RoomService",
+        "description": "app.services.RoomService",
+        "peekOfCode": "def getAllRooms(db: Session):\n    try:\n        role_raw = db.query(Room).all()\n        if not role_raw:\n            return JSONResponse(\n                status_code=status.HTTP_404_NOT_FOUND,\n                content={\n                    \"code\": 1,\n                    \"message\": \"No roles found\",\n                    \"data\": \"\",",
+        "detail": "app.services.RoomService",
+        "documentation": {}
+    },
+    {
+        "label": "searchRoom",
+        "kind": 2,
+        "importPath": "app.services.RoomService",
+        "description": "app.services.RoomService",
+        "peekOfCode": "def searchRoom(\n    db: Session,\n    searchLocation: str,\n    check_in: date,\n    check_out: date,\n    price_min: float = None,\n    price_max: float = None,\n    person_qty: int = 1,\n    page: int = 1,\n    items_per_page: int = 5,",
+        "detail": "app.services.RoomService",
+        "documentation": {}
+    },
+    {
+        "label": "getRoomById",
+        "kind": 2,
+        "importPath": "app.services.RoomService",
+        "description": "app.services.RoomService",
+        "peekOfCode": "def getRoomById(roomId: int, db: Session):\n    try:\n        room = db.query(Room).filter(Room.id == roomId).first()\n        if not room:\n            return JSONResponse(\n                status_code=status.HTTP_404_NOT_FOUND,\n                content={\n                    \"code\": 1,\n                    \"message\": \"Room not found\",\n                    \"data\": \"\",",
+        "detail": "app.services.RoomService",
+        "documentation": {}
+    },
+    {
+        "label": "checkRoomExist",
+        "kind": 2,
+        "importPath": "app.services.RoomService",
+        "description": "app.services.RoomService",
+        "peekOfCode": "def checkRoomExist(nameRoom: str, locationId: int, db: Session):\n    try:\n        check = (\n            db.query(Room)\n            .filter(and_(Room.name == nameRoom, Room.locationId == locationId))\n            .first()\n        )\n        if check:\n            return False\n        return True",
+        "detail": "app.services.RoomService",
+        "documentation": {}
+    },
+    {
+        "label": "createNewRoom",
+        "kind": 2,
+        "importPath": "app.services.RoomService",
+        "description": "app.services.RoomService",
+        "peekOfCode": "def createNewRoom(room: RoomSchemas.RoomCreate, db: Session):\n    try:\n        newRoom = Room(\n            name=room.name,\n            price=room.price,\n            maxPersonQty=room.maxPersonQty,\n            description=room.description,\n            status=room.status,\n            locationId=room.locationId,\n        )",
+        "detail": "app.services.RoomService",
+        "documentation": {}
+    },
+    {
+        "label": "error_response",
+        "kind": 2,
+        "importPath": "app.utils.errorResponseDoc",
+        "description": "app.utils.errorResponseDoc",
+        "peekOfCode": "def error_response(\n    status: list[int] = [400, 500], message: dict[int, str] = {}\n) -> dict:\n    response = {}\n    for code in status:\n        base = baseErrorResponse.get(code)\n        if base:\n            # Ghi đè message nếu có tuỳ chỉnh\n            if code in message:\n                base = {",
+        "detail": "app.utils.errorResponseDoc",
+        "documentation": {}
+    },
+    {
+        "label": "baseErrorResponse",
+        "kind": 5,
+        "importPath": "app.utils.errorResponseDoc",
+        "description": "app.utils.errorResponseDoc",
+        "peekOfCode": "baseErrorResponse = {\n    400: {\n        \"model\": ErrorResponse,\n        \"description\": \"Invalid input\",\n        \"content\": {\n            \"application/json\": {\n                \"example\": {\n                    \"code\": 1,\n                    \"message\": \"Invalid email or phone number format\",\n                    \"data\": \"\",",
+        "detail": "app.utils.errorResponseDoc",
+        "documentation": {}
+    }
+]
