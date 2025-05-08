@@ -13,8 +13,9 @@ pymysql.install_as_MySQLdb()
 
 # print("database tu env:", Database_url)
 # Kết nối đến MySQL
+
 engine = create_engine(
-    "mysql://root:TygbiwZktBFZqFJKRAxpGKThQMwIoFuI@maglev.proxy.rlwy.net:47561/railway",
+    "mysql+pymysql://yhgsqecv_qlks_cua_den:group_123@dinlaan.com:3306/yhgsqecv_qlks_cua_den",
     echo=True,
 )
 
