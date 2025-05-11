@@ -1,6 +1,6 @@
-from datetime import datetime 
+from datetime import datetime ,timezone
 from typing import Optional
-from pydantic import BaseModel
+from pydantic import BaseModel, Field
 
 
 class LocationSchemas:
@@ -25,8 +25,8 @@ class LocationSchemas:
 
     class locationResponse(locationCreate):
         id: int
-        create_at: datetime
-        update_at: datetime
+        create_at: datetime = Field(default_factory=lambda: datetime.now(timezone.utc))
+        update_at: datetime = Field(default_factory=lambda: datetime.now(timezone.utc))
 
         class Config:
             from_attributes = True

@@ -1,5 +1,6 @@
-from pydantic import BaseModel
-from datetime import datetime
+
+from pydantic import BaseModel, Field
+from datetime import datetime,timezone
 from typing import Optional, List
 from app.enums import RoomStatusEnums  # Bạn có thể import từ enum của mình
 
@@ -38,8 +39,8 @@ class RoomSchemas:
 
     class RoomInDB(RoomBase):
         id: int
-        create_at: datetime
-        update_at: datetime
+        create_at: datetime = Field(default_factory=lambda: datetime.now(timezone.utc))
+        update_at: datetime = Field(default_factory=lambda: datetime.now(timezone.utc))
 
     class RoomResponse(RoomInDB):
         imagePrimary: str

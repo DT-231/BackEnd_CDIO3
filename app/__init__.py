@@ -1,4 +1,4 @@
-from fastapi import FastAPI, Request,status
+from fastapi import FastAPI, Request, status
 from fastapi.exceptions import RequestValidationError
 from fastapi.responses import JSONResponse
 
@@ -42,7 +42,11 @@ from app.routers import AuthRouter
 app.include_router(AuthRouter)
 
 from app.routers import RoleRouter
+
 app.include_router(RoleRouter)
 
 from app.routers import RoomRouter
+
 app.include_router(RoomRouter)
+
+

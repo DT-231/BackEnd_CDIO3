@@ -1,3 +1,4 @@
+from typing import Optional
 from fastapi import Depends, Request, Response, status
 from fastapi.params import Body
 from fastapi.responses import JSONResponse
@@ -15,14 +16,15 @@ from app.services.AuthService import (
 
 async def handle_Register_User(
     request: Request,
-    email: str = Body(...),
+    email: Optional[str] = Body(None),
     password: str = Body(...),
-    phoneNumber: str = Body(...),
+    phoneNumber: Optional[str] = Body(None),
     firstName: str = Body(...),
-    lastName: str = Body(None),
-    roleId: str = Body(None),
+    lastName: str = Body(...),
+    roleId: Optional[int] = Body(1),
     db: Session = Depends(get_db),
 ):
+
     try:
         if (
             not email
