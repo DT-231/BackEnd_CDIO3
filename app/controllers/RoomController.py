@@ -142,8 +142,8 @@ async def HandleCreateRoom(
     name: str = Body(...),
     price: float = Body(...),
     maxPersonQty: int = Body(...),
-    description: str = Body(...),
-    status: str = Body(RoomStatusEnums.AVAILABLE),
+    description_hotel: str = Body(...),
+    status: Optional[str] = Body(RoomStatusEnums.AVAILABLE),
     address: str = Body(...),
     district: str = Body(...),
     city: str = Body(...),
@@ -175,42 +175,34 @@ async def HandleCreateRoom(
 
             # Tạo mới vị trí
             resultLocation = createNewLocation(location=location, db=db)
-
+            if not resultLocation:
+                raise Exception("Failed to create location")
             room = RoomSchemas.RoomCreate(
                 name=name,
                 price=price,
                 maxPersonQty=maxPersonQty,
-                description=description,
+                description=description_hotel,
                 status=status,
-                locationId=resultLocation.id,
+                locationId=resultLocation,
                 imagesRoom=imagesRoom,
             )
 
             # kiểm tra phòng đã tồn tại hay chưa
             check = checkRoomExist(room.name, room.locationId, db)
             if not check:
-                # Rollback tự động xảy ra khi return trong with block
-                return JSONResponse(
-                    status_code=200,
-                    content={
-                        "code": 0,
-                        "message": "phòng đã tồn tại",
-                        "data": "",
-                    },
-                )
+                raise Exception("Phòng đã tồn tại")
 
             # tạo phòng mới và trả về id
             roomId = createNewRoom(room=room, db=db)
-
+            if not roomId:
+                raise Exception("Failed to create room")
             # thêm ảnh của phòng
             success = addImages(imagesRoom, roomId, db)
 
             if not success:
-                # Rollback tự động xảy ra
-                return JSONResponse(
-                    status_code=500,
-                    content={"code": 1, "message": "Failed to add images", "data": ""},
-                )
+                raise Exception("Failed to add images")
+
+            db.commit()
 
         # Commit tự động khi thoát with (nếu không lỗi)
         return JSONResponse(

@@ -1,4 +1,5 @@
 from datetime import date
+import math
 from fastapi import status
 from fastapi.encoders import jsonable_encoder
 from fastapi.responses import JSONResponse
@@ -196,10 +197,18 @@ def searchRoom(
                     "location": location_result,
                 }
             )
+        pagination = {
+            "pageCurrent": page,
+            "itemsPerPage": len(rooms),
+            "totalPage": (
+                math.ceil(total_count / items_per_page) if total_count > 0 else 1
+            ),
+        }
 
         room_searched = {
             "count": total_count,  # Total count, not just the paginated results
             "results": result_rooms,
+            "pagination": pagination,
         }
 
         return JSONResponse(
@@ -313,7 +322,7 @@ def createNewRoom(room: RoomSchemas.RoomCreate, db: Session):
         )
 
         db.add(newRoom)
-        db.commit()
+        db.flush()
         db.refresh(newRoom)
 
         return newRoom.id

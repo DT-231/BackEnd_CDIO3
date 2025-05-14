@@ -19,7 +19,7 @@ def getLocation(location: LocationSchemas.locationCreate, db: Session):
             )
             .first()
         )
-        return resultRaw
+        return resultRaw.id
     except Exception as e:
         print("error ", e)
         return False
@@ -40,7 +40,7 @@ def createNewLocation(location: LocationSchemas.locationCreate, db: Session):
         )
 
         db.add(newLocation)
-        db.commit()
+        db.flush()
         db.refresh(newLocation)
 
         return newLocation.id

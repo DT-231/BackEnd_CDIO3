@@ -17,6 +17,7 @@ pymysql.install_as_MySQLdb()
 engine = create_engine(
     "mysql+pymysql://yhgsqecv_qlks_cua_den:group_123@dinlaan.com:3306/yhgsqecv_qlks_cua_den",
     echo=True,
+    pool_pre_ping=True,
 )
 
 # Tạo session factory

@@ -15,7 +15,7 @@ def addImages(listImages: List[str], room_id: int, db: Session):
             })
 
         db.bulk_insert_mappings(RoomImage, images)
-        db.commit()
+        db.flush()
         return True
     except Exception as e:
         print(e)
