@@ -1457,6 +1457,14 @@
         "documentation": {}
     },
     {
+        "label": "# HandleGetALL",
+        "importPath": "app.controllers.RoomController",
+        "description": "app.controllers.RoomController",
+        "isExtraImport": true,
+        "detail": "app.controllers.RoomController",
+        "documentation": {}
+    },
+    {
         "label": "pydantic",
         "kind": 6,
         "isExtraImport": true,
@@ -1734,7 +1742,7 @@
         "kind": 5,
         "importPath": "app.routers.RoomRouter",
         "description": "app.routers.RoomRouter",
-        "peekOfCode": "RoomRouter = APIRouter(prefix=\"/room\", tags=[\"room\"])\nRoomRouter.add_api_route(\n    \"/search\",\n    endpoint=HandleSearchRooms,\n    methods=[\"GET\"],\n    response_model=SuccessResponse[RoomSchemas.RoomResponse],\n    tags=[\"room\"],\n    responses=error_response(status=[400, 422, 500]),\n)\nRoomRouter.add_api_route(",
+        "peekOfCode": "RoomRouter = APIRouter(prefix=\"/room\", tags=[\"room\"])\nRoomRouter.add_api_route(\n    \"/search\",\n    endpoint=HandleSearchRooms,\n    methods=[\"GET\"],\n    response_model=SuccessResponse[RoomSchemas.RoomResponse],\n    tags=[\"room\"],\n    responses=error_response(status=[400, 422, 500]),\n)\n# RoomRouter.add_api_route(",
         "detail": "app.routers.RoomRouter",
         "documentation": {}
     },
@@ -1970,6 +1978,15 @@
         "description": "app.utils.errorResponseDoc",
         "peekOfCode": "baseErrorResponse = {\n    400: {\n        \"model\": ErrorResponse,\n        \"description\": \"Invalid input\",\n        \"content\": {\n            \"application/json\": {\n                \"example\": {\n                    \"code\": 1,\n                    \"message\": \"Invalid email or phone number format\",\n                    \"data\": \"\",",
         "detail": "app.utils.errorResponseDoc",
+        "documentation": {}
+    },
+    {
+        "label": "p",
+        "kind": 5,
+        "importPath": "test",
+        "description": "test",
+        "peekOfCode": "p = \"asdasdasdasd\"\nprint(len(p))",
+        "detail": "test",
         "documentation": {}
     }
 ]

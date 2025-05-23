@@ -223,3 +223,6 @@ async def HandleCreateRoom(
                 "data": "",
             },
         )
+
+# async def HandleGetALL():
+    

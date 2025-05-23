@@ -54,6 +54,15 @@ async def handle_Register_User(
                     "data": "",
                 },
             )
+        if len(password) < 8:
+            return JSONResponse(
+                status_code=status.HTTP_400_BAD_REQUEST,
+                content={
+                    "code": 1,
+                    "message": "password ít nhất phải có 8 ký tự",
+                    "data": "",
+                },
+            )
         user = UserSchemas.UserCreate(
             email=email,
             phoneNumber=phoneNumber,
